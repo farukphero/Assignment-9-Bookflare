@@ -3,9 +3,11 @@ import React from 'react';
 const Header = () => {
   return (
     <div>
-      <div id="item1" className="carousel-item w-full">
-        <img src="../../images/ass.png" className="w-64 h-64" />
-      </div>
+        <img
+          src="https://surielementor.com/bookflarekit/wp-content/uploads/2021/01/Home-01-CD9PQJH.jpg"
+          className="w-full h-72 bg-gradient-to-t"
+        />
+   
       <div className="mt-14">
         <h1 className="text-6xl text-orange-400 mb-5">
           Learning Courses Online

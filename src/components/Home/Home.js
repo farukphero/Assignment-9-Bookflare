@@ -6,13 +6,11 @@ import Header from '../Header/Header';
 const Home = () => {
   const homeCarts = useLoaderData()
   const newCart = homeCarts.data
-  // console.log(homeCarts.data)
   return (
     <div>
       <Header></Header>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {newCart.map((cart) => (
-       
           <Cart key={cart.id} cart={cart}></Cart>
         ))}
       </div>

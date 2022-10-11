@@ -1,12 +1,9 @@
- import React from 'react';
-import Quiz from './Quiz/Quiz';
+import React from 'react';
+import { Link } from 'react-router-dom';
  
 const Cart = ({cart}) => {
   // console.log(cart)
   const {id, name, logo, total } = cart
-  const handleClick = (id) => {
-      
-  }
   return (
     <div className="border-2 border-solid border-orange-400 h-full lg:h-72 rounded m-24">
       <img className="bg-orange-400 w-full h-3/4 rounded" src={logo} alt="" />
@@ -14,11 +11,11 @@ const Cart = ({cart}) => {
         <h1>{name}</h1>
         <p> Total quiz: {total}</p>
         <div>
-          <button
-            onClick={()=>handleClick(id)}
-            className="bg-orange-400 p-3 rounded text-white">
-            Start Quiz
-          </button>
+          <Link to={`/quiz/${id}`}>
+            <button className="bg-orange-400 p-3 rounded text-white">
+              Start Quiz
+            </button>
+          </Link>
         </div>
       </div>
     </div>
