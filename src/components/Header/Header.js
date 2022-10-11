@@ -3,11 +3,11 @@ import React from 'react';
 const Header = () => {
   return (
     <div>
-        <img
-          src="https://surielementor.com/bookflarekit/wp-content/uploads/2021/01/Home-01-CD9PQJH.jpg"
-          className="w-full h-72 bg-gradient-to-t"
-        />
-   
+      <img
+        src="https://surielementor.com/bookflarekit/wp-content/uploads/2021/01/Home-01-CD9PQJH.jpg"
+        className="w-full h-72 bg-gradient-to-t"
+      />
+
       <div className="mt-14">
         <h1 className="text-6xl text-orange-400 mb-5">
           Learning Courses Online
@@ -20,7 +20,7 @@ const Header = () => {
           important moments in our own lives.
         </p>
         <button className="bg-orange-400 p-2 rounded text-white mt-5">
-          START A COURSE
+          START A COURSE 
         </button>
       </div>
     </div>
