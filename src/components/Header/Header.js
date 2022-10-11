@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <img
         src="https://surielementor.com/bookflarekit/wp-content/uploads/2021/01/Home-01-CD9PQJH.jpg"
-        className="w-full h-72 bg-gradient-to-t"
+        className="w-full h-96"
       />
 
       <div className="mt-14">

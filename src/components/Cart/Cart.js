@@ -6,7 +6,7 @@ const Cart = ({cart}) => {
   const {id, name, logo, total } = cart
   return (
     <div className="border-2 border-solid border-orange-400 h-full lg:h-72 rounded m-24">
-      <img className="bg-orange-400 w-full  rounded" src={logo} alt="" />
+      <img className="bg-orange-400 w-full h-3/4 rounded" src={logo} alt="" />
       <div className="lg:flex lg:justify-between mt-6">
         <h1>{name}</h1>
         <p> Total quiz: {total}</p>

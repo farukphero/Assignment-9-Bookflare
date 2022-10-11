@@ -7,6 +7,7 @@ import Topics from './components/Topics/Topics';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import Quiz from './components/Cart/Quiz/Quiz';
+import Rechart from './components/Rechart/Rechart';
 
 function App() {
   const router = createBrowserRouter([
