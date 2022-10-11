@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
+import { XMarkIcon, Bars3Icon ,BookOpenIcon } from "@heroicons/react/24/solid";
 import './NavBar.css'
 
 const NavBar = () => {
    const [open, setOpen] = useState(false);
   return (
     <div className="navbar-container bg-slate-200 p-5 rounded">
-      <h1 className="text-4xl">Bookflare</h1>
+      <h1 className="text-4xl flex">
+        <BookOpenIcon className="h-12 w-10 text-orange-300" />
+        Bookflare
+      </h1>
       <nav
         className={`bg-blue-200 lg:bg-slate-200 text-center ml-0 md:flex p-6 absolute md:static duration-500 ease-in ${
           open ? "top-20" : "top-[-250px]"
