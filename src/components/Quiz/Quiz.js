@@ -4,9 +4,7 @@ import QuizOptions from '../QuizOptions/QuizOptions';
 
 const Quiz = (id) => {
   const quiz = useLoaderData(id)
-  // console.log(quiz)
   const newQuiz = quiz.data.questions;
-  // console.log(quiz.data.questions)
   return (
     <div>
       <h1 className='text-2xl blod mt-5'><b>Quiz of {quiz.data.name}</b></h1>

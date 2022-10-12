@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
  
 const Cart = ({cart}) => {
-  // console.log(cart)
   const {id, name, logo, total } = cart
   return (
     <div className="border-2 border-solid border-orange-400 h-full lg:h-72 rounded m-24">

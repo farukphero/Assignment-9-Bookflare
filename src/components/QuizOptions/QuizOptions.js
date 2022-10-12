@@ -2,11 +2,9 @@ import React from "react";
 import { EyeIcon } from "@heroicons/react/24/solid";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./QuizOptions.css";
 
-const QuizOptions = ({ quiz ,index }) => {
+  const QuizOptions = ({ quiz ,index }) => {
   const { options, question } = quiz;
-  // console.log(options)
   const quizAnswer = quiz.correctAnswer;
   const handleQuiz = (ans) => {
     if (quizAnswer === ans) {
