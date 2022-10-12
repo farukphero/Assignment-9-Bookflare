@@ -6,8 +6,8 @@ import './NavBar.css'
 const NavBar = () => {
    const [open, setOpen] = useState(false);
   return (
-    <div className="navbar-container bg-slate-200 p-5 rounded">
-      <h1 className="text-4xl flex">
+    <div className="navbar-container bg-slate-200 rounded">
+      <h1 className="text-4xl flex p-5">
         <BookOpenIcon className="h-12 w-10 text-orange-300" />
         Bookflare
       </h1>
@@ -16,7 +16,7 @@ const NavBar = () => {
           open ? "top-20" : "top-[-250px]"
         }`}
       >
-        <Link className="mr-24  block md:flex" to="/"></Link>
+        <Link className="mr-24 block md:flex" to="/"></Link>
         <Link
           className="mr-24  block md:flex hover:bg-slate-400 p-3 rounded"
           to="/home"
@@ -35,7 +35,10 @@ const NavBar = () => {
         >
           Statistics
         </Link>
-        <Link className="mr-24 md:mr-0 block md:flex hover:bg-slate-400 p-3 rounded" to="/blog">
+        <Link
+          className="mr-24 md:mr-0 block md:flex hover:bg-slate-400 p-3 rounded"
+          to="/blog"
+        >
           Blog
         </Link>
       </nav>
