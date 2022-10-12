@@ -63,11 +63,11 @@ const Rechart = ({ chart }) => {
   return (
     <div>
       <h1>{showChart}</h1>
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={showChart}>
+     
+        <BarChart width={150} height={140} data={showChart}>
           <Bar dataKey="showChart" fill="#8884d8" />
         </BarChart>
-      </ResponsiveContainer>
+    
     </div>
   );
 };

@@ -1,5 +1,18 @@
 # Bookflare
-Responsive website with react router
+Fully Responsive website with react router.
+# Website live link 
+https://flourishing-cupcake-aefe2f.netlify.app
+
+# Know about CSS,React, JavaScript
+In this project, use advance CSS, react-router.
+
+# Icon 
+Use different icon from hero-icon.
+# Learning 
+Simply describe about purpose of react router, context api, useRef hook  within blog page.
+
+# Quiz 
+Create practice task by using different quiz.
 
 # Getting Started with Create React App
 
