@@ -41,7 +41,7 @@ function App() {
     },
     {
       path: "*",
-      element: <h1>404 Page Not Found </h1>,
+      element: <h1 className='text-2xl'><b>404 Page Not Found</b> </h1>,
     },
     {
       path: "/quiz/:quizId",
