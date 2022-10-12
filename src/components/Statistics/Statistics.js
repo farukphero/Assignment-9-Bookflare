@@ -6,10 +6,11 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 const Statistics = () => {
   const charts = useLoaderData()
   const newChart = charts.data
+  console.log(newChart);
   return (
-    <div className='w-96 m-auto mt-20'>
-      <BarChart width={600} height={500} data={newChart}>
-        <Bar type="monotone" dataKey="total" fill="#8884d8" strokeWidth={2} />
+    <div className='w-96 m-auto'>
+      <BarChart width={400} height={500} data={newChart}>
+        <Bar type="monotone" dataKey="total" fill="#82ca9d" />
         <XAxis dataKey="name" />
           <YAxis />
           <Tooltip></Tooltip>

@@ -41,14 +41,14 @@ function App() {
     },
     {
       path: "*",
-      element: <h1>No founded any data</h1>,
+      element: <h1>404 Page Not Found </h1>,
     },
     {
       path: "/quiz/:quizId",
       loader: ({ params }) =>
-        // console.log(params),
+        // console.log(params)
         fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
-      element: <Quiz>No founded any data</Quiz>,
+      element: <Quiz></Quiz>,
     },
   ]);
   return (
