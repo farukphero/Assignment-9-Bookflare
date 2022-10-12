@@ -12,21 +12,30 @@ const NavBar = () => {
         Bookflare
       </h1>
       <nav
-        className={`bg-blue-200 lg:bg-slate-200 text-center ml-0 md:flex p-6 absolute md:static duration-500 ease-in ${
+        className={` bg-blue-200 md:bg-slate-200 lg:bg-slate-200 text-center ml-0 md:flex p-6 absolute md:static duration-500 ease-in ${
           open ? "top-20" : "top-[-250px]"
         }`}
       >
         <Link className="mr-24  block md:flex" to="/"></Link>
-        <Link className="mr-24  block md:flex" to="/home">
+        <Link
+          className="mr-24  block md:flex hover:bg-slate-400 p-3 rounded"
+          to="/home"
+        >
           Home
         </Link>
-        <Link className="mr-24  block md:flex" to="/topics">
+        <Link
+          className="mr-24  block md:flex hover:bg-slate-400 p-3 rounded"
+          to="/topics"
+        >
           Topics
         </Link>
-        <Link className="mr-24  block md:flex" to="/statistics">
+        <Link
+          className="mr-24  block md:flex hover:bg-slate-400 p-3 rounded"
+          to="/statistics"
+        >
           Statistics
         </Link>
-        <Link className="mr-24 md:mr-0 block md:flex" to="/blog">
+        <Link className="mr-24 md:mr-0 block md:flex hover:bg-slate-400 p-3 rounded" to="/blog">
           Blog
         </Link>
       </nav>
