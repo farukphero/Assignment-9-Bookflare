@@ -1,7 +1,6 @@
- 
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import QuizOptions from '../../QuizOptions/QuizOptions';
+import QuizOptions from '../QuizOptions/QuizOptions';
 
 const Quiz = (id) => {
   const quiz = useLoaderData(id)
