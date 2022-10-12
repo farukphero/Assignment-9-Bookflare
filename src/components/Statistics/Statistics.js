@@ -6,9 +6,8 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 const Statistics = () => {
   const charts = useLoaderData()
   const newChart = charts.data
-  console.log(newChart);
   return (
-    <div className='w-96 m-auto'>
+    <div className='w-96 m-auto mt-10'>
       <BarChart width={400} height={500} data={newChart}>
         <Bar type="monotone" dataKey="total" fill="#82ca9d" />
         <XAxis dataKey="name" />
