@@ -1,5 +1,5 @@
 # Bookflare
-Fully Responsive website with react router.
+Bookflare, a fully Responsive website with react router.
 # Website live link 
 https://flourishing-cupcake-aefe2f.netlify.app
 
@@ -14,7 +14,11 @@ Simply describe about purpose of react router, context api, useRef hook  within 
 # Quiz 
 Create practice task by using different quiz.
 
-# Getting Started with Create React App
+# Chart
+
+Show quiz Increase by using rechart.
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -83,4 +87,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

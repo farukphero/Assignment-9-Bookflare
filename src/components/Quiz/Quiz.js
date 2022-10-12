@@ -10,7 +10,7 @@ const Quiz = (id) => {
   return (
     <div>
       <h1 className='text-2xl blod mt-5'><b>Quiz of {quiz.data.name}</b></h1>
-      {newQuiz.map((quiz) => <QuizOptions key={quiz.id} quiz={quiz}></QuizOptions>  )}
+      {newQuiz.map((quiz,idx) => <QuizOptions key={quiz.id} index={idx} quiz={quiz}></QuizOptions>  )}
     </div>
   );
 };

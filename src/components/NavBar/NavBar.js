@@ -42,7 +42,7 @@ const NavBar = () => {
           Blog
         </Link>
       </nav>
-      <div onClick={() => setOpen(!open)} className="h-6 w-6 mt-6 md:hidden">
+      <div onClick={() => setOpen(!open)} className="h-6 w-6 mt-6 mr-6 md:hidden">
         {open ? <XMarkIcon /> : <Bars3Icon />}
       </div>
     </div>
